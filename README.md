@@ -2,6 +2,8 @@
 
 El programa simula partículas que realizan una marcha aleatoria sobre el eje x, donde cada paso tiene longitud fija a y dirección aleatoria (derecha + o izquierda - con igual probabilidad). Se estudian las propiedades estadísticas de la posición final después de N pasos.
 El proyecto está estructurado de la forma: 
+
+
 random_walk/
 ├── random_walk_simulation.py  # Código principal de simulación
 ├── analysis.py               # Análisis de resultados y gráficas
@@ -9,8 +11,12 @@ random_walk/
 
 # Cómo ejecutar
 1. Simulación básica con histograma
+
 Ejecute el primer programa para simular caminatas aleatorias y generar un histograma: python random_walk_histogram.py
+
+
 2. Análisis de 〈x²〉 vs N
+   
 Ejecute el segundo programa para analizar la relación 〈x²〉 ∝ N: python random_walk_analysis.py
 
 * Resultados esperados
