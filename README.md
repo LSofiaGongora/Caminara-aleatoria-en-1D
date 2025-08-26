@@ -1,4 +1,4 @@
-# Caminara-aleatoria-en-1D
+# Caminata-aleatoria-en-1D
 
 El programa simula partículas que realizan una marcha aleatoria sobre el eje x, donde cada paso tiene longitud fija a y dirección aleatoria (derecha + o izquierda - con igual probabilidad). Se estudian las propiedades estadísticas de la posición final después de N pasos.
 El proyecto está estructurado de la forma: 
@@ -24,7 +24,7 @@ Histograma que se ajusta a la campana de Gauss
 〈x²〉 ∝ N con pendiente ≈ 1.0
 Constante de difusión D ≈ 0.5
 
-Considere losParámetros ajustables que puede modificar en el código:
+Considere los parámetros ajustables que puede modificar en el código:
 
 N: Número de pasos por caminata
 num_simulations: Número de repeticiones
